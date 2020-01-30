@@ -4,6 +4,7 @@
     document.getElementById("btnRestar1").addEventListener("click", restarLP1);
     document.getElementById("btnSumar2").addEventListener("click", sumarLP2);
     document.getElementById("btnRestar2").addEventListener("click", restarLP2);
+    document.getElementById("dado").addEventListener("click", dado);
     var total1 = 8000;
     var total2 =8000;
    
@@ -64,8 +65,7 @@ function restarLP1(arg) {
 
     var d1 = Math.floor(Math.random() * 6) + 1;
     
-    var showDado = document.getElementById("showDado");
-    showDado.innerHTML = d1
+
     alert("Su Numero es " + d1)
     
 }
