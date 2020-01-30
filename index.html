@@ -1,86 +1,105 @@
+
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ionic JS - Life PointJS</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Ionic JS - Life PointJS</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+    </head>
     
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-</head>
-
-<body>
-
-    <ion-app>
-
-     
-       
-                 <div class="container ">
-  <div class="row">
-    <div class="col-sm-6 card"><center>
-                
-                                                   <!-- Ionic Card -->
-                    <ion-card color="light">
-                        <ion-card-header color="success">
-                            <ion-card-title>
-                                Total : 8000
-                            </ion-card-title>
-                        </ion-card-header>
-                        <ion-card-content>
-                            <ion-item>
-                                <ion-label position="floating">Player 1</ion-label>
-                                <ion-input type="number" placeholder="Life Point" id="valorA"></ion-input>
-                            </ion-item>
-                          
-                            <div margin-vertical text-center>
-                                <ion-button id="button-save" color="success">
-                                   
-                                    +
-                                </ion-button>
-                                <ion-button  color="danger" id="button-cancel">
-                                  
-                                    -
-                                </ion-button>
-                          
-                        </ion-card-content>
-                    </ion-card>
-           
-              
-                  </div>
-          </div>
-          </div>
+    <body>
+<ion-app>
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Header</ion-title>
+      </ion-toolbar>
+    </ion-header>
+  
+    <ion-content class="ion-padding">
+        
+        <ion-grid>
+        <ion-row>
+            <ion-col size-sm="6">
+            <div>
+                <ion-card color="light">
+                    <ion-card-header color="success">
+                    <ion-card-title>
+                    Total : 8000
+                    </ion-card-title>
+                    </ion-card-header>
+                    <ion-card-content>
+                    <ion-item>
+                    <ion-label position="floating">Player 1</ion-label>
+                    <ion-input type="number" placeholder="Life Point" id="valorA"></ion-input>
+                    </ion-item>
                     
+                    <div margin-vertical text-center>
+                    <ion-button color="success" id="button-save">
+                    
+                    +
+                    </ion-button>
+                    <ion-button  color="danger" id="button-cancel">
+                    
+                    -
+                    </ion-button>
+                    </div>
+                    </ion-card-content>
+                    </ion-card>
+            </div>
+          </ion-col>
+         
+          <ion-col size-sm="6">
+            <div>
+                <ion-card color="light">
+                    <ion-card-header color="success">
+                    <ion-card-title>
+                    Total : 8000
+                    </ion-card-title>
+                    </ion-card-header>
+                    <ion-card-content>
+                    <ion-item>
+                    <ion-label position="floating">Player 1</ion-label>
+                    <ion-input type="number" placeholder="Life Point" id="valorA"></ion-input>
+                    </ion-item>
+                    
+                    <div margin-vertical text-center>
+                    <ion-button color="success" id="button-save">
+                    
+                    +
+                    </ion-button>
+                    <ion-button  color="danger" id="button-cancel">
+                    
+                    -
+                    </ion-button>
+                    </div>
+                    </ion-card-content>
+                    </ion-card>
+            </div>
+          </ion-col>
+        </ion-row>
+       
+      </ion-grid>
 
+  
+  
 
+    </ion-content>
+  
+    <ion-footer>
+      <ion-toolbar>
+        <ion-title>Footer</ion-title>
+      </ion-toolbar>
+    </ion-footer>
+  </ion-app>
+  
 
-
-</ion-app>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
-<script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
-
-<!-- LOGIC -->
-<script src="./app.js"></script>
-</body>
-
-</html>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+  <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+  
+  <!-- LOGIC -->
+  <script src="./app.js"></script>
+  </body>
+  
+  </html>
