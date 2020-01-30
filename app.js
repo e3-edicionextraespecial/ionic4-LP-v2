@@ -1,4 +1,4 @@
-alert("WELCOME")
+
 
     document.getElementById("btnSumar1").addEventListener("click", sumarLP1);
     document.getElementById("btnRestar1").addEventListener("click", restarLP1);
