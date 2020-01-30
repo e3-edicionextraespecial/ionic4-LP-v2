@@ -29,8 +29,9 @@
          var porId=document.getElementById("valorB").value;
          var sumar=+porId
          total2= total2+sumar
-         document.getElementById("valorB").value = "";
+     
          document.getElementById("puntosDevidaB").innerHTML = total2;
+            document.getElementById("valorB").value = "";
          }
 
 
@@ -41,8 +42,9 @@ this.total2=arg;
 var porId=document.getElementById("valorB").value;
 var sumar=+porId
 total2= total2-sumar
-document.getElementById("valorB").value = "";
+
 document.getElementById("puntosDevidaB").innerHTML = total2;
+document.getElementById("valorB").value = "";
 if (total2 <= 0){
     alert("EL juego ha terminado");
     }
@@ -60,8 +62,9 @@ if (total2 <= 0){
     var porId=document.getElementById("valorA").value;
     var sumar=+porId
     total1= total1+sumar
-    document.getElementById("valorA").value = "";
+    
     document.getElementById("puntosDevidaA").innerHTML = total1;
+          document.getElementById("valorA").value = "";
     }
 function restarLP1(arg) {
 
@@ -70,8 +73,9 @@ function restarLP1(arg) {
     var porId=document.getElementById("valorA").value;
     var sumar=+porId
     total1= total1-sumar
-    document.getElementById("valorA").value = "";
+  
     document.getElementById("puntosDevidaA").innerHTML = total1;
+      document.getElementById("valorA").value = "";
     if (total1 <= 0){
     	alert("EL juego ha terminado");
     	}
