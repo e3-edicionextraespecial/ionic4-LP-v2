@@ -20,10 +20,11 @@
        
         <ion-content>
             <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
 
-            <ion-grid>
-                <ion-row>
-                    <ion-col size-sm="6">
+            
+               
                                                    <!-- Ionic Card -->
                     <ion-card color="light">
                         <ion-card-header color="success">
@@ -49,48 +50,44 @@
                             </div>
                         </ion-card-content>
                     </ion-card>
-                </ion-col>
+                </div>
 
+                <div class="col-sm-6">
 
-              <div></div>
-                
-                                            <!-- Ionic Card --> <!-- Ionic Card -->
-
-                                            <ion-col size-sm="6">
-
-<!-- Ionic Card -->
+            
+               
+                    <!-- Ionic Card -->
 <ion-card color="light">
 <ion-card-header color="success">
 <ion-card-title>
-Total : 8000
+ Total : 8000
 </ion-card-title>
 </ion-card-header>
 <ion-card-content>
 <ion-item>
-<ion-label position="floating">Player 1</ion-label>
-<ion-input type="number" placeholder="Life Point" id="valorA"></ion-input>
+ <ion-label position="floating">Player 1</ion-label>
+ <ion-input type="number" placeholder="Life Point" id="valorA"></ion-input>
 </ion-item>
 
 <div margin-vertical text-center>
-<ion-button color="success" id="button-save">
-
-+
-</ion-button>
-<ion-button  color="danger" id="button-cancel">
-
--
-</ion-button>
+ <ion-button id="button-save" color="success">
+    
+     +
+ </ion-button>
+ <ion-button  color="danger" id="button-cancel">
+   
+     -
+ </ion-button>
 </div>
 </ion-card-content>
 </ion-card>
-</ion-col>
+</div>
 
 
-<!-- Ionic Card --> <!-- Ionic Card -->
 
 
-</ion-row>
-</ion-grid>
+
+            </div>    
 </div>
 </ion-content>
 </ion-app>
