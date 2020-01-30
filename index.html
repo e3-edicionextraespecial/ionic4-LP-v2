@@ -28,9 +28,10 @@
                                                    <!-- Ionic Card -->
                     <ion-card color="light">
                         <ion-card-header color="success">
-                            <ion-card-title>
-                                Total : 8000
-                            </ion-card-title>
+                            <h2>Total</h2>
+                           
+                                <h3  id="puntosDevidaA">8000</h3>
+                          
                         </ion-card-header>
                         <ion-card-content>
                             <ion-item>
@@ -39,11 +40,11 @@
                             </ion-item>
                           
                             <div margin-vertical text-center>
-                                <ion-button id="button-save" color="success">
+                                <ion-button color="success" id="btnSumar1">
                                    
                                     +
                                 </ion-button>
-                                <ion-button  color="danger" id="button-cancel">
+                                <ion-button  color="danger" id="btnRestar1">
                                   
                                     -
                                 </ion-button>
@@ -59,22 +60,22 @@
                     <!-- Ionic Card -->
 <ion-card color="light">
 <ion-card-header color="success">
-<ion-card-title>
- Total : 8000
-</ion-card-title>
+    <h2>Total</h2>
+    <h3  id="puntosDevidaB">8000</h3>
+
 </ion-card-header>
 <ion-card-content>
 <ion-item>
  <ion-label position="floating">Player 1</ion-label>
- <ion-input type="number" placeholder="Life Point" id="valorA"></ion-input>
+ <ion-input type="number" placeholder="Life Point" id="valorB"></ion-input>
 </ion-item>
 
 <div margin-vertical text-center>
- <ion-button id="button-save" color="success">
+ <ion-button  color="success" id="btnSumar2">
     
      +
  </ion-button>
- <ion-button  color="danger" id="button-cancel">
+ <ion-button  color="danger" id="btnRestar2">
    
      -
  </ion-button>
@@ -112,12 +113,13 @@
 
 
 
-
+<script src="app.js"></script>
 <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
 <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
 
 <!-- LOGIC -->
-<script src="./app.js"></script>
+
 </body>
 
 </html>
+
