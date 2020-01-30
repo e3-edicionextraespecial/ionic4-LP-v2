@@ -1,5 +1,4 @@
 
-
     document.getElementById("btnSumar1").addEventListener("click", sumarLP1);
     document.getElementById("btnRestar1").addEventListener("click", restarLP1);
     document.getElementById("btnSumar2").addEventListener("click", sumarLP2);
@@ -7,6 +6,20 @@
     document.getElementById("dado").addEventListener("click", dado);
     var total1 = 8000;
     var total2 =8000;
+
+
+
+      function showElem() {
+        document.getElementById("myImg").style.visibility = "hidden"; 
+        document.getElementById("showDado").style.visibility = "visible"; 
+        var d1 = Math.floor(Math.random() * 6) + 1;
+    
+        var showDado = document.getElementById("showDado");
+       
+
+        var showDado = document.getElementById("showDado");
+        showDado.innerHTML = d1
+      }
    
 
     function sumarLP2(arg) {
@@ -62,12 +75,17 @@ function restarLP1(arg) {
    
   }
   function dado() {
+    document.getElementById("myImg").style.visibility = "visible"; 
 
-    var d1 = Math.floor(Math.random() * 6) + 1;
-    
-
-    alert("Su Numero es " + d1)
-    
-}
+    document.getElementById("showDado").style.visibility = "hidden"; 
 
    
+
+
+
+    
+    
+    showDado.innerHTML = d1
+    
+    
+}
